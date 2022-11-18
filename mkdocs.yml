@@ -1,4 +1,4 @@
-site_name: CS Share
+site_name: CS Plan
 
 theme:
   name: material
@@ -7,40 +7,69 @@ theme:
     - 404.html
   favicon: images/favicon16x16.png
   include_search_page: false
-  search_index_only: true
+  # search_index_only: true
 
   features:
-    - header.autohide
-    # - navigation.instant
-    # - navigation.expand
-    # - navigation.sections
+    - navigation.instant
+    - navigation.expand
     - navigation.tracking
-    # - navigation.tabs
-    # - navigation.tabs.sticky
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
-    # - navigation.indexes
+    - navigation.sections
     - search.highlight
     - search.share
     - search.suggest
-    # - toc.integrate
     - content.code.annotate
 
   palette:
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: light blue
-      accent: deep purple
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: cyan
-      accent: deep purple
-      toggle:
-        icon: material/weather-night
-        name: Switch to light mode
+      # Palette toggle for light mode
+      - media: "(prefers-color-scheme: light)"
+        scheme: default
+        toggle:
+          icon: material/brightness-7
+          name: Switch to dark mode
 
+      # Palette toggle for dark mode
+      - media: "(prefers-color-scheme: dark)"
+        scheme: slate
+        toggle:
+          icon: material/brightness-4
+          name: Switch to light mode
+          
 markdown_extensions:
+  # https://squidfunk.github.io/mkdocs-material/reference/images/
   - attr_list
   - md_in_html
+nav:
+  - 前言: "index.md"
+  - CS基础: 
+    - 导览: "CS基础/导览.md"
+    - 课程推荐: 
+      - 计算机导论:
+        - "Crash Course Computer Science": "CS基础/课程推荐/计算机导论/计算机速成课.md"
+        -  "Harvard CS50": "CS基础/课程推荐/计算机导论/HarvardCS50.md"
+      - 编程基础:
+        - "UCB CS61A: Structure and Interpretation of Computer Programs": "CS基础/课程推荐/编程基础/UCBCS61A.md"
+        - "其他推荐": "CS基础/课程推荐/编程基础/基础编程资源汇总.md"
+      - 数学基础:
+        - "MIT18.01/18.02: Calculus": "CS基础/课程推荐/数学基础/MITCalculs.md"
+        - "MIT18.06: Linear Algebra": "CS基础/课程推荐/数学基础/MITGSLA.md"
+        - "UCB CS70: Discrete Mathematics and Probability Theory":  "CS基础/课程推荐/数学基础/UCBDM.md"
+      - 算法基础:
+        - "UCB CS61B: Data Structures": "CS基础/课程推荐/算法基础/UCBCS61B.md"
+        - "Coursera: Algorithms I & II": "CS基础/课程推荐/算法基础/PrinAlgo.md"
+    - 书籍推荐: "CS基础/书籍推荐.md"
+  - 基础深入:
+    - 导览: "基础深入/导览.md"
+    - 课程推荐:
+      - 体系结构:
+        - "UCB CS61C: Great Ideas in Computer Architecture (Machine Structures)": "基础深入/课程推荐/体系结构/UCBCS61C.md"
+        - "CMU 15-213: CSAPP": "基础深入/课程推荐/体系结构/CMUCSAPP.md"
+        - "Brown CSCI0300: Fundamentals of Computer Systems": "基础深入/课程推荐/体系结构/BrownCS0300.md"
+      - 数学进阶:
+        - "UCB CS126: Probability and Random Processes": "基础深入/课程推荐/数学进阶/UCBCS126.md"
+      - 算法进阶:
+        - "UCB CS170: Efficient Algorithms and Intractable Problems": "基础深入/课程推荐/算法进阶/UCBCS170.md"
+    - 书籍推荐: "基础深入/书籍推荐.md"
+  - 贡献要求: "贡献方式及要求.md"
