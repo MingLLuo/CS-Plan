@@ -9,7 +9,7 @@
 学习这门课程应该参考着红宝书([Algorithm4](https://algs4.cs.princeton.edu/home/))进行学习，你可以通过Reading定位到相应章节，视频覆盖了Hug “book"大多数的内容
 
 #### 补充
-- 环境配置方面，由于课程已经完结，在通过IDEA编写代码时，可以只配置一次Project Structure，在学习某个lab/project时将其设置为Source module即可
+- 环境配置方面，由于课程已经完结，在通过IDEA编写代码时，可以只配置一次Project Structure，在学习某个lab/project时将其设置为Source Root即可
 - 网上的Gradescope邀请码可能会失效，记得仔细甄别
 - 2021Sp的lab较少，可以结合着学期其他学期的lab/project，2022Fall的内容不对外开放
 - 2022Spring并没有发放邀请码，但有朋友将其与Gradescope的所有测试爬入本地，你可以在Github找到它
