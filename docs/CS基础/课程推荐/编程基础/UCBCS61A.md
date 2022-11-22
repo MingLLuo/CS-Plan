@@ -98,6 +98,10 @@ CS61A是一门有深度的入门课，其中介绍的大部分概念都是一个
 
 ## 零碎的学习建议与比较重要的资源
 
+一份"不完善的"环境[配置文档](file/61A.pdf)以及有问题可以一起讨论的群聊(QQ群：[709679216](https://jq.qq.com/?_wv=1027&k=xhIzC22z))
+
+---
+
 SCIP的python版是有中文翻译的，想看可以去看看，但我没怎么看懂0.0
 
 [《SICP Python 描述 中文版》](https://www.bookstack.cn/read/sicp-py-zh/2.1.md)
@@ -108,13 +112,13 @@ SCIP的python版是有中文翻译的，想看可以去看看，但我没怎么�
 
 [61A 的在线IDE （支持scheme）](https://code.cs61a.org/)
 
-
+---
 
 以下两个建议做完scheme project再看，当时解答了我不少疑惑。
 
 [【编译原理】什么是AST？](https://blog.csdn.net/u012790503/article/details/114479265?utm_medium=distribute.pc_feed_404.none-task-blog-2~default~BlogCommendFromBaidu~Rate-2-114479265-blog-null.pc_404_mixedpudn&amp;depth_1-utm_source=distribute.pc_feed_404.none-task-blog-2~default~BlogCommendFromBaidu~Rate-2-114479265-blog-null.pc_404_mixedpud)[【编译原理】理解BNF](https://blog.csdn.net/u012790503/article/details/112859204)
 
-
+---
 
 一些比较杂乱的资源就不搬过来，有些是别人笔记，有些是别人的吐槽，都放在我的b站专栏里了。
 
