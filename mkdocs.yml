@@ -1,5 +1,9 @@
 site_name: CS Plan
+site_url: https://cs-plan.com
+site_author: MingLLuo
 
+repo_name: CS-Plan
+repo_url: https://github.com/MingLLuo/CS-Plan
 theme:
   name: material
   language: zh
@@ -26,6 +30,7 @@ theme:
       # Palette toggle for light mode
       - media: "(prefers-color-scheme: light)"
         scheme: default
+        primary: brown
         toggle:
           icon: material/brightness-7
           name: Switch to dark mode
@@ -33,10 +38,17 @@ theme:
       # Palette toggle for dark mode
       - media: "(prefers-color-scheme: dark)"
         scheme: slate
+        primary: indigo
         toggle:
           icon: material/brightness-4
           name: Switch to light mode
-          
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  icon:
+    repo: fontawesome/brands/github
+
 markdown_extensions:
   # https://squidfunk.github.io/mkdocs-material/reference/images/
   - attr_list
