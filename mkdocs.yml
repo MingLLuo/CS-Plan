@@ -77,7 +77,7 @@ nav:
     - 课程推荐:
       - 体系结构:
         - "UCB CS61C: Great Ideas in Computer Architecture (Machine Structures)": "基础深入/课程推荐/体系结构/UCBCS61C.md"
-        - "CMU 15-213: CSAPP": "基础深入/课程推荐/体系结构/CMUCSAPP.md"
+        - "CMU 15-213: Intro to Computer Systems": "基础深入/课程推荐/体系结构/CMU15-213.md"
         - "Brown CSCI0300: Fundamentals of Computer Systems": "基础深入/课程推荐/体系结构/BrownCS0300.md"
       - 数学进阶:
         - "UCB CS126: Probability and Random Processes": "基础深入/课程推荐/数学进阶/UCBCS126.md"
