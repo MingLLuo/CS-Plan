@@ -15,10 +15,10 @@ theme:
 
   features:
     - navigation.instant
-    - navigation.expand
+    # - navigation.expand
     - navigation.tracking
-    - navigation.tabs
-    - navigation.tabs.sticky
+    # - navigation.tabs
+    # - navigation.tabs.sticky
     - navigation.top
     - navigation.sections
     - search.highlight
@@ -48,6 +48,11 @@ theme:
 
   icon:
     repo: fontawesome/brands/github
+
+extra:
+  analytics:
+    provider: google
+    property: G-6XJGJRLBLZ
 
 markdown_extensions:
   # https://squidfunk.github.io/mkdocs-material/reference/images/
