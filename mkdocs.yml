@@ -7,6 +7,7 @@ repo_url: https://github.com/MingLLuo/CS-Plan
 theme:
   name: material
   language: zh
+  custom_dir: overrides
   static_templates:
     - 404.html
   favicon: images/favicon16x16.png
