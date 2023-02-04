@@ -11,8 +11,6 @@ theme:
   static_templates:
     - 404.html
   favicon: images/favicon16x16.png
-  include_search_page: false
-  # search_index_only: true
 
   features:
     - navigation.instant
