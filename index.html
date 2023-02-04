@@ -294,6 +294,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    现状
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -982,6 +989,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    现状
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -994,6 +1008,7 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
+  
                   
 
   
@@ -1005,13 +1020,22 @@
 <blockquote>
 <p>can't be a scientific CS Plan</p>
 </blockquote>
-<h2 id="tldr">TL;DR</h2>
+<h4 id="tldr">TL;DR</h4>
 <ul>
-<li>性质：一份综合较优秀CS资源，整理了贡献者们学习经验的指南，以及碎碎念</li>
+<li>性质：一份综合较优秀CS资源的学习指南，以及碎碎念</li>
 <li>导览：对每个模块的大体介绍，提供了相应的学习路线，以及碎碎念</li>
-<li>书籍推荐：推荐了一些贡献者们认为不错的书籍，提供了简略的介绍及推荐理由</li>
+<li>书籍推荐：推荐了当前分支不错的书籍，提供了简略的介绍及推荐理由</li>
 <li>课程推荐：大多为资源齐全且质量较高的课程，推荐形式各式各样</li>
 </ul>
+<hr />
+<h2 id="_1">现状</h2>
+<p>在课内的学习中，一但碰上了不合适的“课程”，我们往往会遇到一些问题</p>
+<ul>
+<li>无法适应老师的教学方式</li>
+<li>不满于课程配套的作业，或者作业的难度</li>
+<li>学习完这门课后，仍然无法理解这门课所应该涉及的内容</li>
+</ul>
+<p>这些问题往往都由于不充足的课时数，老师们不同的教学风格，不完善的课程体系及资源所导致的。当然，你所处的学习环境也导致了这些不适，你周围的同学不希望接触过于深入的知识，能应付完这门课就好了；老师也不希望自己的挂科率太高；学院也希望自己的“形象”不要太差，参加一些评定，大力推荐一些非本学科的竞赛，然后......还有很多很多因素，暂不赘述，这些情况都导致了一种看不见的恶性循环，使得我们的学习环境越来越差，当趋于稳定的时候，我们就会觉得这就是正常的了。在这样的环境，就应该设置这样的课程，你好我好大家好！</p>
 
 
   
@@ -1020,6 +1044,55 @@
 
 
                 
+
+  <!-- Giscus -->
+  <h2 id="__comments">评论</h2>
+  <script src="https://giscus.app/client.js"
+        data-repo="MingLLuo/CS-Plan"
+        data-repo-id="R_kgDOIYFjNA"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOIYFjNM4CT_jE"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+  <!-- Synchronize Giscus theme with palette -->
+  <script>
+    var giscus = document.querySelector("script[src*=giscus]")
+
+    /* Set palette on initial load */
+    var palette = __md_get("__palette")
+    if (palette && typeof palette.color === "object") {
+      var theme = palette.color.scheme === "slate" ? "dark" : "light"
+      giscus.setAttribute("data-theme", theme) 
+    }
+
+    /* Register event handlers after documented loaded */
+    document.addEventListener("DOMContentLoaded", function() {
+      var ref = document.querySelector("[data-md-component=palette]")
+      ref.addEventListener("change", function() {
+        var palette = __md_get("__palette")
+        if (palette && typeof palette.color === "object") {
+          var theme = palette.color.scheme === "slate" ? "dark" : "light"
+
+          /* Instruct Giscus to change theme */
+          var frame = document.querySelector(".giscus-frame")
+          frame.contentWindow.postMessage(
+            { giscus: { setConfig: { theme } } },
+            "https://giscus.app"
+          )
+        }
+      })
+    })
+  </script>
+
               </article>
             </div>
           
