@@ -74,18 +74,17 @@ nav:
         - "UCB CS70: Discrete Mathematics and Probability Theory":  "CS基础/课程推荐/数学基础/UCBDM.md"
       - 算法基础:
         - "UCB CS61B: Data Structures": "CS基础/课程推荐/算法基础/UCBCS61B.md"
-        - "Coursera: Algorithms I & II": "CS基础/课程推荐/算法基础/PrinAlgo.md"
-    - 书籍推荐: "CS基础/书籍推荐.md"
-  - 基础深入:
-    - 导览: "基础深入/导览.md"
-    - 课程推荐:
-      - 体系结构:
-        - "UCB CS61C: Great Ideas in Computer Architecture (Machine Structures)": "基础深入/课程推荐/体系结构/UCBCS61C.md"
-        - "CMU 15-213: Intro to Computer Systems": "基础深入/课程推荐/体系结构/CMU15-213.md"
-        - "Brown CSCI0300: Fundamentals of Computer Systems": "基础深入/课程推荐/体系结构/BrownCS0300.md"
-      - 数学进阶:
-        - "UCB CS126: Probability and Random Processes": "基础深入/课程推荐/数学进阶/UCBCS126.md"
-      - 算法进阶:
-        - "UCB CS170: Efficient Algorithms and Intractable Problems": "基础深入/课程推荐/算法进阶/UCBCS170.md"
-    - 书籍推荐: "基础深入/书籍推荐.md"
+  - 深入导览: "基础深入/导览.md"
+  - 体系结构:
+    - "UCB CS61C: Great Ideas in Computer Architecture (Machine Structures)": "基础深入/课程推荐/体系结构/UCBCS61C.md"
+    - "Brown CSCI0300: Fundamentals of Computer Systems": "基础深入/课程推荐/体系结构/BrownCS0300.md"
+  - 数学进阶:
+    - "UCB CS126: Probability and Random Processes": "基础深入/课程推荐/数学进阶/UCBCS126.md"
+    - "SCNU: A Concrete Introduction to Number Theory and Algebra": "基础深入/课程推荐/数学进阶/CINTA.md"
+  - 算法进阶:
+    - "UCB CS170: Efficient Algorithms and Intractable Problems": "基础深入/课程推荐/算法进阶/UCBCS170.md"
+  - 计算机安全:
+    - "UCB CS161: Computer Security": "基础深入/课程推荐/计算机安全/UCBCS161.md"
+    - "Brown CSCI1515: Applied Cryptography": "基础深入/课程推荐/计算机安全/BrownCSCI1515.md"
+  - 书籍推荐: "书籍推荐.md"
   - 贡献要求: "贡献方式及要求.md"
