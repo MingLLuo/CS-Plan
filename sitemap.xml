@@ -2,102 +2,107 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://cs-plan.com/</loc>
-         <lastmod>2023-04-19</lastmod>
+         <lastmod>2023-05-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cs-plan.com/%E4%B9%A6%E7%B1%8D%E6%8E%A8%E8%8D%90/</loc>
-         <lastmod>2023-04-19</lastmod>
+         <lastmod>2023-05-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cs-plan.com/%E8%B4%A1%E7%8C%AE%E6%96%B9%E5%BC%8F%E5%8F%8A%E8%A6%81%E6%B1%82/</loc>
-         <lastmod>2023-04-19</lastmod>
+         <lastmod>2023-05-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cs-plan.com/CS%E5%9F%BA%E7%A1%80/%E5%AF%BC%E8%A7%88/</loc>
-         <lastmod>2023-04-19</lastmod>
+         <lastmod>2023-05-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cs-plan.com/CS%E5%9F%BA%E7%A1%80/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/MITCalculs/</loc>
-         <lastmod>2023-04-19</lastmod>
+         <lastmod>2023-05-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cs-plan.com/CS%E5%9F%BA%E7%A1%80/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/MITGSLA/</loc>
-         <lastmod>2023-04-19</lastmod>
+         <lastmod>2023-05-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cs-plan.com/CS%E5%9F%BA%E7%A1%80/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/UCBDM/</loc>
-         <lastmod>2023-04-19</lastmod>
+         <lastmod>2023-05-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cs-plan.com/CS%E5%9F%BA%E7%A1%80/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/UCBCS61B/</loc>
-         <lastmod>2023-04-19</lastmod>
+         <lastmod>2023-05-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cs-plan.com/CS%E5%9F%BA%E7%A1%80/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/UCBCS61A/</loc>
-         <lastmod>2023-04-19</lastmod>
+         <lastmod>2023-05-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cs-plan.com/CS%E5%9F%BA%E7%A1%80/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E5%9F%BA%E7%A1%80%E7%BC%96%E7%A8%8B%E8%B5%84%E6%BA%90%E6%B1%87%E6%80%BB/</loc>
-         <lastmod>2023-04-19</lastmod>
+         <lastmod>2023-05-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cs-plan.com/CS%E5%9F%BA%E7%A1%80/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA/HarvardCS50/</loc>
-         <lastmod>2023-04-19</lastmod>
+         <lastmod>2023-05-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cs-plan.com/CS%E5%9F%BA%E7%A1%80/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA/%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%80%9F%E6%88%90%E8%AF%BE/</loc>
-         <lastmod>2023-04-19</lastmod>
+         <lastmod>2023-05-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cs-plan.com/%E5%9F%BA%E7%A1%80%E6%B7%B1%E5%85%A5/%E5%AF%BC%E8%A7%88/</loc>
-         <lastmod>2023-04-19</lastmod>
+         <lastmod>2023-05-01</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cs-plan.com/%E5%9F%BA%E7%A1%80%E6%B7%B1%E5%85%A5/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/UCBCS188/</loc>
+         <lastmod>2023-05-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cs-plan.com/%E5%9F%BA%E7%A1%80%E6%B7%B1%E5%85%A5/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/BrownCS0300/</loc>
-         <lastmod>2023-04-19</lastmod>
+         <lastmod>2023-05-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cs-plan.com/%E5%9F%BA%E7%A1%80%E6%B7%B1%E5%85%A5/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/UCBCS61C/</loc>
-         <lastmod>2023-04-19</lastmod>
+         <lastmod>2023-05-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cs-plan.com/%E5%9F%BA%E7%A1%80%E6%B7%B1%E5%85%A5/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E6%95%B0%E5%AD%A6%E8%BF%9B%E9%98%B6/CINTA/</loc>
-         <lastmod>2023-04-19</lastmod>
+         <lastmod>2023-05-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cs-plan.com/%E5%9F%BA%E7%A1%80%E6%B7%B1%E5%85%A5/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E6%95%B0%E5%AD%A6%E8%BF%9B%E9%98%B6/UCBCS126/</loc>
-         <lastmod>2023-04-19</lastmod>
+         <lastmod>2023-05-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cs-plan.com/%E5%9F%BA%E7%A1%80%E6%B7%B1%E5%85%A5/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E7%AE%97%E6%B3%95%E8%BF%9B%E9%98%B6/UCBCS170/</loc>
-         <lastmod>2023-04-19</lastmod>
+         <lastmod>2023-05-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cs-plan.com/%E5%9F%BA%E7%A1%80%E6%B7%B1%E5%85%A5/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AE%89%E5%85%A8/BrownCSCI1515/</loc>
-         <lastmod>2023-04-19</lastmod>
+         <lastmod>2023-05-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cs-plan.com/%E5%9F%BA%E7%A1%80%E6%B7%B1%E5%85%A5/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AE%89%E5%85%A8/UCBCS161/</loc>
-         <lastmod>2023-04-19</lastmod>
+         <lastmod>2023-05-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
