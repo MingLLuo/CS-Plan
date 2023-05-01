@@ -83,6 +83,8 @@ nav:
     - "SCNU: A Concrete Introduction to Number Theory and Algebra": "基础深入/课程推荐/数学进阶/CINTA.md"
   - 算法进阶:
     - "UCB CS170: Efficient Algorithms and Intractable Problems": "基础深入/课程推荐/算法进阶/UCBCS170.md"
+  - 人工智能:
+    - "UCB CS188: Introduction to Artificial Intelligence": "基础深入/课程推荐/人工智能/UCBCS188.md"
   - 计算机安全:
     - "UCB CS161: Computer Security": "基础深入/课程推荐/计算机安全/UCBCS161.md"
     - "Brown CSCI1515: Applied Cryptography": "基础深入/课程推荐/计算机安全/BrownCSCI1515.md"
