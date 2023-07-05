@@ -1,20 +1,23 @@
 site_name: CS Plan
+site_url: https://cs-plan.com
+site_author: MingLLuo
 
+repo_name: CS-Plan
+repo_url: https://github.com/MingLLuo/CS-Plan
 theme:
   name: material
   language: zh
+  custom_dir: overrides
   static_templates:
     - 404.html
   favicon: images/favicon16x16.png
-  include_search_page: false
-  # search_index_only: true
 
   features:
     - navigation.instant
-    - navigation.expand
+    # - navigation.expand
     - navigation.tracking
-    - navigation.tabs
-    - navigation.tabs.sticky
+    # - navigation.tabs
+    # - navigation.tabs.sticky
     - navigation.top
     - navigation.sections
     - search.highlight
@@ -26,6 +29,7 @@ theme:
       # Palette toggle for light mode
       - media: "(prefers-color-scheme: light)"
         scheme: default
+        primary: brown
         toggle:
           icon: material/brightness-7
           name: Switch to dark mode
@@ -33,10 +37,22 @@ theme:
       # Palette toggle for dark mode
       - media: "(prefers-color-scheme: dark)"
         scheme: slate
+        primary: indigo
         toggle:
           icon: material/brightness-4
           name: Switch to light mode
-          
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  icon:
+    repo: fontawesome/brands/github
+
+extra:
+  analytics:
+    provider: google
+    property: G-6XJGJRLBLZ
+
 markdown_extensions:
   # https://squidfunk.github.io/mkdocs-material/reference/images/
   - attr_list
@@ -58,18 +74,19 @@ nav:
         - "UCB CS70: Discrete Mathematics and Probability Theory":  "CS基础/课程推荐/数学基础/UCBDM.md"
       - 算法基础:
         - "UCB CS61B: Data Structures": "CS基础/课程推荐/算法基础/UCBCS61B.md"
-        - "Coursera: Algorithms I & II": "CS基础/课程推荐/算法基础/PrinAlgo.md"
-    - 书籍推荐: "CS基础/书籍推荐.md"
-  - 基础深入:
-    - 导览: "基础深入/导览.md"
-    - 课程推荐:
-      - 体系结构:
-        - "UCB CS61C: Great Ideas in Computer Architecture (Machine Structures)": "基础深入/课程推荐/体系结构/UCBCS61C.md"
-        - "CMU 15-213: CSAPP": "基础深入/课程推荐/体系结构/CMUCSAPP.md"
-        - "Brown CSCI0300: Fundamentals of Computer Systems": "基础深入/课程推荐/体系结构/BrownCS0300.md"
-      - 数学进阶:
-        - "UCB CS126: Probability and Random Processes": "基础深入/课程推荐/数学进阶/UCBCS126.md"
-      - 算法进阶:
-        - "UCB CS170: Efficient Algorithms and Intractable Problems": "基础深入/课程推荐/算法进阶/UCBCS170.md"
-    - 书籍推荐: "基础深入/书籍推荐.md"
+  - 深入导览: "基础深入/导览.md"
+  - 体系结构:
+    - "UCB CS61C: Great Ideas in Computer Architecture (Machine Structures)": "基础深入/课程推荐/体系结构/UCBCS61C.md"
+    - "Brown CSCI0300: Fundamentals of Computer Systems": "基础深入/课程推荐/体系结构/BrownCS0300.md"
+  - 数学进阶:
+    - "UCB CS126: Probability and Random Processes": "基础深入/课程推荐/数学进阶/UCBCS126.md"
+    - "SCNU: A Concrete Introduction to Number Theory and Algebra": "基础深入/课程推荐/数学进阶/CINTA.md"
+  - 算法进阶:
+    - "UCB CS170: Efficient Algorithms and Intractable Problems": "基础深入/课程推荐/算法进阶/UCBCS170.md"
+  - 人工智能:
+    - "UCB CS188: Introduction to Artificial Intelligence": "基础深入/课程推荐/人工智能/UCBCS188.md"
+  - 计算机安全:
+    - "UCB CS161: Computer Security": "基础深入/课程推荐/计算机安全/UCBCS161.md"
+    - "Brown CSCI1515: Applied Cryptography": "基础深入/课程推荐/计算机安全/BrownCSCI1515.md"
+  - 书籍推荐: "书籍推荐.md"
   - 贡献要求: "贡献方式及要求.md"
