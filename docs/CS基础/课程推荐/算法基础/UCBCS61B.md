@@ -1,14 +1,26 @@
+# CS 61B Data Structures
+- 开设学校：UC Berkeley
+- 涉及语言：JAVA
+- 课程页面：[CS61B](https://datastructur.es)
+
+---
+
 ## 课程介绍
 (基于2021Spring, 2022Spring/Fall)
 
-作为CS61ABC的第二门课程，主要涵盖了数据结构与算法，穿插学习了JAVA的基本语法及数据结构，辅以优秀的Lab和Project，讲练结合，过程十分有趣。Project0会要求实现一个2048小游戏。从此，你就得规划好自己的算法，过于繁杂的实现将阻碍自己调试。通过Junit的学习认识测试的重要性，并随着课程深入编写自己的测试，以保证通过Gradescope的考验(本地的测试并不完善)。
+作为CS61ABC的第二门课程，主要涵盖了数据结构与算法，穿插学习了JAVA的基本语法及数据结构，辅以优秀的Lab和Project，讲练结合，过程十分有趣。Project0会要求实现一个2048小游戏。从此，你就得规划好自己的算法，过于繁杂的实现将阻碍自己调试。通过JUnit的学习认识测试的重要性，并随着课程深入编写自己的测试，以保证通过Gradescope的考验(本地的测试并不完善)。
 
-CS61B有多个版本，其中对外开放测试的是sp18与sp21，这个版本你都可以在网上找到对应的Gradescope邀请码，（可以去[UCB CS61B - CS自学指南 ](https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/CS61B/)的评论区里面找，里面有对应的资源以及常见的坑。）其中sp21更加偏向软件工程，lab的任务量比较轻松，且基本都是为了project服务，而sp18更加偏向数据结构，有着更加丰富的lab来巩固自己的知识。
+CS61B有多个版本，其中对外开放测试的是sp18与sp21，这个版本你都可以在网上找到对应的Gradescope邀请码
+
+- 可以去[UCB CS61B - CS自学指南 ](https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/CS61B/)的评论区里面找，里面有对应的资源以及常见的坑
+
+其中sp21更加偏向软件工程，lab的任务量比较轻松，且基本都是为了project服务，而sp18更加偏向数据结构，有着更加丰富的lab来巩固自己的知识。
 
 可以说，CS61B是一门披着数据结构外衣的软件工程课。与国内大多数的数据结构课程不同，其作业有规范的API，autograder会对代码的风格进行判别，这意味着你想要的代码不仅仅是功能完善的，还要要拥有规范的缩进格式，不能出现Magic Number...
 
-学习这门课程应该参考着红宝书([Algorithm4]([https://algs4.cs.princeton.edu/home/](https://algs4.cs.princeton.edu/home/)))进行学习，你可以通过Reading定位到相应章节，视频覆盖了Hug “book"大多数的内容
-补充：建议有时间的朋友从头开始阅读这本书
+学习这门课程应该参考着红宝书([Algorithm4]([https://algs4.cs.princeton.edu/home/](https://algs4.cs.princeton.edu/home/)))进行学习，你可以通过Reading定位到相应章节，视频覆盖了Hug's book大多数的内容
+
+(补充：建议有时间的朋友从头开始阅读这本书)
 
 ## Project介绍
 sp21中，Project1是要求实现一个双端队列，并且写出对应的unit test，最终可以得到一首由你自己算法实现出来的一首歌，Project2要求实现一个轻量版本的Git，Project3是实现一个基于tile的随机世界游戏，你可以在上面整活，把他变成2Dmc或者死亡细胞之类的游戏。
@@ -52,27 +64,22 @@ sp21中，Project1是要求实现一个双端队列，并且写出对应的unit 
     > 不要慌 -jyy
 
 
+~~有一说一看伯克利学生说Gitlet难的时候我还是非常开心的（你小子也有今天）~~
 
-~~ 有一说一看伯克利学生说Gitlet难的时候我还是非常开心的（你小子也有今天）~~
+- 对应的资源:
+    - [Gitlet测试样例（sp22）](https://zhuanlan.zhihu.com/p/503858776)（感谢null哥）
 
-对应的资源
+    - [CS61B Gitlet入坑指南 ，附带sp21测试用例](https://zhuanlan.zhihu.com/p/533852291)（感谢）
 
-[Gitlet测试样例（sp22）](https://zhuanlan.zhihu.com/p/503858776)（感谢null哥）
-
-[CS61B Gitlet入坑指南 ，附带sp21测试用例](https://zhuanlan.zhihu.com/p/533852291)（感谢）
-
-#### Gitlet共情时刻
+### Gitlet共情时刻
 
 这个项目足足把我碾了五遍！（第一次时读文档说明的时候）
 
 总体代码总共经历了4次大改，每一次大改的时候我都感觉我删掉了我逝去的时光。
 
 - 第1次是逻辑都有问题，旧的框架没有考虑新功能的实现，写到后面人傻了。
-
-- 第2次是代码实在是太繁琐，~~ 如果接着写下去会导致这个项目彻底摧毁我都灵魂 ~~
-
+- 第2次是代码实在是太繁琐，~~如果接着写下去会导致这个项目彻底摧毁我都灵魂~~
 - 第3次是持久性乱写，存储的东西乱七八糟的。
-
 - 第4次是merge没有复用，把我写麻了。
 
 （写了5h的代码说删就删了…）
@@ -85,12 +92,13 @@ sp21中，Project1是要求实现一个双端队列，并且写出对应的unit 
 
 没人想当猴子，做这个项目的时候我第一次主动的去了解了一些软件工程以及代码编写规范之类的知识，同时对自己的项目写了比较详细的注释（因为自己有点看不懂自己写的东西了）
 
-Josh hug 在课程中提到paul（61A那个老教授）使用的Gitlet项目好像比这个要难的多，有兴趣的话你们也可以试试他的。Ps.这门课Paul Hill finger 也教过（而且比较难） 
+Josh hug 在课程中提到paul（61A那个老教授）使用的Gitlet项目好像比这个要难的多，有兴趣的话你们也可以试试他的。
+Ps.这门课Paul Hill finger 也教过（而且比较难） 
 
 ## 补充
 
--  环境配置方面，由于课程已经完结，在通过IDEA编写代码时，可以只配置一次Project Structure，在学习某个lab/project时将其设置为Source Root即可
+-  环境配置方面，由于课程已经完结，在通过IDEA编写代码时，可以只配置一次Project Structure，在学习某个lab/project时将其设置为Source Root即可，可以参考这份[文档V2.0](https://docs.qq.com/pdf/DWUlIZGpGaHJoYnJU)
 -  网上的Gradescope邀请码可能会失效，记得仔细甄别
--  2021Sp的lab较少，可以结合着学期其他学期的lab/project，2022Fall的内容不对外开放
+-  2021Spring的lab较少，可以结合着学期其他学期的lab/project，2022Fall的内容不对外开放
 -  2022Spring并没有发放邀请码，但有朋友将其与Gradescope的所有测试爬入本地，你可以在Github找到它
 - [CS61B结课笔记，感想，以及资源 b站的专栏--降星驰 ](https://www.bilibili.com/read/cv18985812)
