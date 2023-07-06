@@ -86,6 +86,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#cs-161-computer-security" class="md-skip">
+          跳转至
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -857,10 +862,77 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          UCB CS161: Computer Security
+          <span class="md-nav__icon md-icon"></span>
+        </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
         UCB CS161: Computer Security
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    主要内容
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    学习建议
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    学习心得
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    资源分享
+  </a>
+  
+    <nav class="md-nav" aria-label="资源分享">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#project2" class="md-nav__link">
+    Project2测试范围节选
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -934,6 +1006,57 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    主要内容
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    学习建议
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    学习心得
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    资源分享
+  </a>
+  
+    <nav class="md-nav" aria-label="资源分享">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#project2" class="md-nav__link">
+    Project2测试范围节选
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -952,9 +1075,74 @@
   
 
 
-  <h1>UCB CS161: Computer Security</h1>
-
-
+<h1 id="cs-161-computer-security">CS 161: Computer Security</h1>
+<ul>
+<li>开设学校：UC Berkeley</li>
+<li>涉及语言：C, Go, SQL</li>
+<li>课程页面：<a href="https://cs161.org">CS161</a></li>
+</ul>
+<hr />
+<h2 id="_1">主要内容</h2>
+<p>这门课可划分为操作系统安全，密码安全，网络安全，还有一些扩展</p>
+<ul>
+<li>
+<p>操作系统安全主要聚焦于内存安全，学习x86汇编和堆栈相关的概念，它的<a href="https://sp23.cs161.org/assets/projects/1/cheatsheet.pdf">Cheat Sheet</a>真的很爱</p>
+</li>
+<li>
+<p>密码安全介绍了基本的密码模型范式，一些模型的应用(加密，认证，验证...)，最后一节还介绍了比特币</p>
+</li>
+<li>
+<p>网络部分(分为Web Security和Network Security)介绍了基本的网络模型、协议以及攻击手段</p>
+</li>
+<li>
+<p>还补充了软件安全相关内容，病毒、入侵检测...</p>
+</li>
+</ul>
+<h2 id="_2">学习建议</h2>
+<ol>
+<li>直接看slides的效果可能高于看Recording，每一次Lecture都应该阅读Textbook对应的章节（阅读Slides是个不连续的过程，没有人在旁讲述学习可能不连贯，Textbook就可以很好的帮助你学习）</li>
+<li>说了这么多，Textbook值得读</li>
+<li>Discussion有空可以做完，没空也应该挑一点写</li>
+<li>HW都开放了就把握住吧～</li>
+<li>Project2的Ag和Project3是不对外开放，Proj1/2都会有个故事背景，做起来还是挺有趣的？<ul>
+<li>Project1的体量比较小，半天一天就能写完了，学完之后GDB水平大增(然后没用又忘了)</li>
+<li>Project2需要你设计一个“安全”的文件系统，提供的本地测试不太够，即使是enroll了这门课：<code>Due to the nature of computer security, the majority of these tests are hidden.</code>建议找几个朋友一起设计完成这个Project，相互讨论</li>
+</ul>
+</li>
+</ol>
+<h2 id="_3">学习心得</h2>
+<ul>
+<li>系统安全的内容很好的巩固了CSAPP中所学的汇编知识，完成Project时还需要参考阅读一篇关于ASLR(Address space layout randomization)的论文，这部分的学习很有趣～</li>
+<li>密码安全作为这里可能较难的topic，劝退了很多人？(主要是觉得有数学吧hh)我认为这块的知识很有必要了解，哈希/签名/证书等概念是CS人必备的吧，不过这里还是比较浅的，想要深入学习可以找其他资料，<a href="../BrownCSCI1515/">CSCI1515</a>就是一个不错的选择(我们老师说这门课还是很有难度的)。<ul>
+<li>Project2是自己一个人写的，一开始码量不大，基本功能实现的也差不多，但是在细细斟酌之后，就开始了补洞之旅，写测试和代码得有几千行了，最后测试还是有些细节没考虑到。这个Project还是建议合作完成，前期设计时能多考虑到一些内容，这个Project并不会用到Go的太多特性，学习一下语法就可以开始上手了(用的GoLand，体验挺好)</li>
+</ul>
+</li>
+<li>Web部分的学习倾向于网页及其服务上的攻击，有SQL注入，CSRF(一种伪造手段)...</li>
+<li>网络部分的学习可以配合着课内的《计算机网络》，不过这里的网络更偏向网络协议，也会介绍关于他们的攻击手段</li>
+</ul>
+<h2 id="_4">资源分享</h2>
+<ul>
+<li>Summer23开放了Spring2023的HW，邀请码为：<code>G2DR3D</code>，虽然没有开放lab以及project的autograder，但这个作业的质量整的很好，在你做对时还有解析</li>
+<li>Textbook在介绍DNS时推荐了一个漫画，顺着摸发现了整个<a href="https://dnsimple.com/comics">漫画系列</a>，主要介绍DNS/HTTPS，跟着看还是很有趣的(还有彩蛋🥲)</li>
+</ul>
+<h3 id="project2">Project2测试范围节选</h3>
+<p>主要是我在ag上看到的测试要求，供参考</p>
+<ul>
+<li>Design Requirements<ul>
+<li>Keystore Abuse Test: number of public keys (in Keystore) should not depend on the number of files stored, or the length of any file. </li>
+<li>Collision Resistance Test: Check for collisions in designs using separators/concats. Designs must use H(a) + "/" + H(b), not H(a + "/" + b), or similar. </li>
+</ul>
+</li>
+<li>Functionality [RevokeAccess]<ul>
+<li>Revoke access before a top-level child accepts an invite. </li>
+<li>Revoke access before a sub-level child accepts an invite. </li>
+<li>A complicated chain of shares &amp; revokes. </li>
+<li>Create three different invitations, and then accept the second one that we created. Then, revoke and attempt to re-accept any of the earlier invites. All of the AcceptInvitation calls should fail. </li>
+<li>A revoked user's LoadFile should fail. </li>
+</ul>
+</li>
+<li>不列了，相信你们可以考虑到🙃</li>
+</ul>
 
 
   
