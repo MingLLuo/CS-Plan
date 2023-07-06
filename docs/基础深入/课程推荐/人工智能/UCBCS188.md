@@ -26,4 +26,4 @@
 ## 链接
 - [2023Spring主页](https://inst.eecs.berkeley.edu/~cs188/sp23/)
 - [2018Fall主页](https://inst.eecs.berkeley.edu/~cs188/fa18/)
-- [3Blue1Brown] (https://space.bilibili.com/88461692)
+- [3Blue1Brown](https://space.bilibili.com/88461692)
