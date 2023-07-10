@@ -92,5 +92,8 @@ nav:
   - 计算机安全:
     - "UCB CS161: Computer Security": "基础深入/课程推荐/计算机安全/UCBCS161.md"
     - "Brown CSCI1515: Applied Cryptography": "基础深入/课程推荐/计算机安全/BrownCSCI1515.md"
-  - 书籍推荐: "书籍推荐.md"
+  - 书籍推荐: 
+    - "推荐书目" : "书籍推荐.md"
+    - books:
+      - "Operating Systems: Three Easy Pieces" : "books/OSTEP.md"
   - 贡献要求: "贡献方式及要求.md"
