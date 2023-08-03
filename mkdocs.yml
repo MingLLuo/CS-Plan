@@ -10,7 +10,6 @@ theme:
   custom_dir: overrides
   static_templates:
     - 404.html
-  favicon: images/favicon16x16.png
 
   features:
     - navigation.instant
@@ -42,7 +41,7 @@ theme:
           icon: material/brightness-4
           name: Switch to light mode
   font:
-    text: Roboto
+    text: Noto Serif SC  
     code: Roboto Mono
 
   icon:
@@ -97,3 +96,4 @@ nav:
     - books:
       - "Operating Systems: Three Easy Pieces" : "books/OSTEP.md"
   - 贡献要求: "贡献方式及要求.md"
+  - 后记: "end.md"
