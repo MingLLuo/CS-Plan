@@ -1,6 +1,13 @@
 # CS188: Introduction to Artificial Intelligence
 
+- 开设学校：UC Berkeley
+- 课程页面：[CS188](https://inst.eecs.berkeley.edu/~cs188/)
+- 课程视频：没见到过www
+
+---
+
 ## 内容介绍
+
 这是一门人工智能的导论课，课程的资源都是公开的，其中电子版的HW可以使用2018Fall的Gradescope邀请码获得，最新的不对外公开，但其余的内容都是公开的。
 
 如果你想快速了解人工智能，上手实践的话，这门课可能不适合你，我会更加推荐[Dive into Deep Learning](https://d2l.ai/)这类动手实践的教材/课程。
