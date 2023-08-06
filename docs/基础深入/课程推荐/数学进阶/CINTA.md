@@ -97,5 +97,5 @@ CINTA这本书蕴含的密码就是密码算法，包括，但应该不局限于
 
 ## 资源推荐
 - [Abstract Algebra: Theory and Applications](http://abstract.ups.edu/): AATA
-- [A Friendly Introduction to Number Theory](math.brown.edu/johsilve/frint.html): FINT
+- [A Friendly Introduction to Number Theory](https://www.math.brown.edu/johsilve/frint.html): FINT
 - [Abstract Algebra, 3rd Edition](https://www.amazon.com/Abstract-Algebra-3rd-David-Dummit/dp/0471433349): DF03

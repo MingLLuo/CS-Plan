@@ -61,6 +61,14 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
 
+extra_javascript:
+  - javascripts/katex.js 
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+
 nav:
   - 前言: "index.md"
   - CS基础: 
@@ -77,6 +85,7 @@ nav:
       - "UCB CS70: Discrete Mathematics and Probability Theory":  "CS基础/课程推荐/数学基础/UCBDM.md"
     - 算法基础:
       - "UCB CS61B: Data Structures": "CS基础/课程推荐/算法基础/UCBCS61B.md"
+    - 工具与策略: "CS基础/工具与策略.md"
   - 深入导览: "基础深入/导览.md"
   - 体系结构:
     - "UCB CS61C: Great Ideas in Computer Architecture (Machine Structures)": "基础深入/课程推荐/体系结构/UCBCS61C.md"
@@ -88,6 +97,7 @@ nav:
     - "UCB CS170: Efficient Algorithms and Intractable Problems": "基础深入/课程推荐/算法进阶/UCBCS170.md"
   - 人工智能:
     - "UCB CS188: Introduction to Artificial Intelligence": "基础深入/课程推荐/人工智能/UCBCS188.md"
+    - "UMich EECS 498-007 / 598-005: Deep Learning for Computer Vision": "基础深入/课程推荐/深度学习/UMEECS498.md"
   - 计算机安全:
     - "UCB CS161: Computer Security": "基础深入/课程推荐/计算机安全/UCBCS161.md"
     - "Brown CSCI1515: Applied Cryptography": "基础深入/课程推荐/计算机安全/BrownCSCI1515.md"

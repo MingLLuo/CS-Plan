@@ -31,3 +31,4 @@
 - [The-Art-of-Linear-Algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra)
 - [LADR](https://linear.axler.net/)
 - [《矩阵力量》 | 鸢尾花书：从加减乘除到机器学习](https://github.com/Visualize-ML/Book4_Power-of-Matrix)
+- [线性代数讨论贴](https://0xffff.one/d/442-xian-xing-dai-shu-tao-lun-tie)
