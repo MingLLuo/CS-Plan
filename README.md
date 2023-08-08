@@ -16,3 +16,5 @@
 [腾讯文档 CS Plan反馈表](https://docs.qq.com/form/page/DWWZCYU1EY3NQV2Z2)
 
 这份指南还在不断调整优化中，希望有想法的人一起[参与贡献](docs/贡献方式及要求.md)
+
+我也大致列出了以后应该会完善的[内容](docs/todo.md)

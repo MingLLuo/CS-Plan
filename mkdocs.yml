@@ -100,10 +100,10 @@ nav:
     - "UMich EECS 498-007 / 598-005: Deep Learning for Computer Vision": "基础深入/课程推荐/深度学习/UMEECS498.md"
   - 计算机安全:
     - "UCB CS161: Computer Security": "基础深入/课程推荐/计算机安全/UCBCS161.md"
-    - "Brown CSCI1515: Applied Cryptography": "基础深入/课程推荐/计算机安全/BrownCSCI1515.md"
+    # - "Brown CSCI1515: Applied Cryptography": "基础深入/课程推荐/计算机安全/BrownCSCI1515.md"
   - 书籍推荐: 
     - "推荐书目" : "书籍推荐.md"
-    - books:
+    - Books:
       - "Operating Systems: Three Easy Pieces" : "books/OSTEP.md"
   - 贡献要求: "贡献方式及要求.md"
   - 后记: "end.md"
