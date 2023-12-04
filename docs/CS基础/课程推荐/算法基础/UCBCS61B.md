@@ -18,7 +18,7 @@ CS61B有多个版本，其中对外开放测试的是sp18与sp21，这个版本�
 
 可以说，CS61B是一门披着数据结构外衣的软件工程课。与国内大多数的数据结构课程不同，其作业有规范的API，autograder会对代码的风格进行判别，这意味着你想要的代码不仅仅是功能完善的，还要要拥有规范的缩进格式，不能出现Magic Number...
 
-学习这门课程应该参考着红宝书([Algorithm4]([https://algs4.cs.princeton.edu/home/](https://algs4.cs.princeton.edu/home/)))进行学习，你可以通过Reading定位到相应章节，视频覆盖了Hug's book大多数的内容
+学习这门课程应该参考着红宝书([Algorithm4](https://algs4.cs.princeton.edu/home/))进行学习，你可以通过Reading定位到相应章节，视频覆盖了Hug's book大多数的内容
 
 (补充：建议有时间的朋友从头开始阅读这本书)
 

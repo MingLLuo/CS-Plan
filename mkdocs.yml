@@ -86,21 +86,38 @@ nav:
     - 算法基础:
       - "UCB CS61B: Data Structures": "CS基础/课程推荐/算法基础/UCBCS61B.md"
     - 工具与策略: "CS基础/工具与策略.md"
-  - 深入导览: "基础深入/导览.md"
-  - 体系结构:
-    - "UCB CS61C: Great Ideas in Computer Architecture (Machine Structures)": "基础深入/课程推荐/体系结构/UCBCS61C.md"
-    - "Brown CSCI0300: Fundamentals of Computer Systems": "基础深入/课程推荐/体系结构/BrownCS0300.md"
-  - 数学进阶:
-    - "UCB CS126: Probability and Random Processes": "基础深入/课程推荐/数学进阶/UCBCS126.md"
-    - "SCNU: A Concrete Introduction to Number Theory and Algebra": "基础深入/课程推荐/数学进阶/CINTA.md"
-  - 算法进阶:
-    - "UCB CS170: Efficient Algorithms and Intractable Problems": "基础深入/课程推荐/算法进阶/UCBCS170.md"
-  - 人工智能:
-    - "UCB CS188: Introduction to Artificial Intelligence": "基础深入/课程推荐/人工智能/UCBCS188.md"
-    - "UMich EECS 498-007 / 598-005: Deep Learning for Computer Vision": "基础深入/课程推荐/深度学习/UMEECS498.md"
-  - 计算机安全:
-    - "UCB CS161: Computer Security": "基础深入/课程推荐/计算机安全/UCBCS161.md"
-    # - "Brown CSCI1515: Applied Cryptography": "基础深入/课程推荐/计算机安全/BrownCSCI1515.md"
+  - 基础深入:
+    - 深入导览: "基础深入/导览.md"
+    - 数学进阶:
+      - "UCB CS126: Probability and Random Processes": "基础深入/课程推荐/数学进阶/UCBCS126.md"
+      - "SCNU: A Concrete Introduction to Number Theory and Algebra": "基础深入/课程推荐/数学进阶/CINTA.md"
+    - 计算理论:
+      - "ITOC: Introduction To The Theory Of Computation": "基础深入/课程推荐/计算理论/ITOC.md"
+    - 算法进阶:
+      - "UCB CS170: Efficient Algorithms and Intractable Problems": "基础深入/课程推荐/算法进阶/UCBCS170.md"
+    - PL:
+      - 函数式编程:
+        - "CS3110: OCaml Programming Correct + Efficient + Beautiful": "基础深入/课程推荐/PL/函数式编程/CornellCS3110.md"
+      # - 编译原理:
+      - 编译语言设计和程序分析:
+        - "Brown CSCI1260 / UCB CS164 Compilers and Program Analysis:": "基础深入/课程推荐/PL/编译语言设计和程序分析/BrownCSCI1260.md"
+    - 体系结构:
+      - "UCB CS61C: Great Ideas in Computer Architecture (Machine Structures)": "基础深入/课程推荐/体系结构/UCBCS61C.md"
+      - "Brown CSCI0300: Fundamentals of Computer Systems": "基础深入/课程推荐/体系结构/BrownCS0300.md"
+    - Systems:
+      - 操作系统:
+        - "MIT 6.1810: Operating System Engineering": "基础深入/课程推荐/Systems/操作系统/MIT6.S1810.md"
+      - 分布式系统:
+        - "MIT 6.5840: Distributed Systems": "基础深入/课程推荐/Systems/分布式系统/MIT6.5840.md"
+    - 人工智能:
+      - "UCB CS188: Introduction to Artificial Intelligence": "基础深入/课程推荐/人工智能/UCBCS188.md"
+      - "UMich EECS 498-007 / 598-005: Deep Learning for Computer Vision": "基础深入/课程推荐/深度学习/UMEECS498.md"
+    - 计算机安全:
+      - 综合:
+        - "UCB CS161: Computer Security": "基础深入/课程推荐/计算机安全/综合/UCBCS161.md"
+      - 密码学:
+        - "Brown CSCI1510: Introduction to Cryptography and Computer Security": "基础深入/课程推荐/计算机安全/密码学/BrownCSCI1510.md"
+        - "Brown CSCI1515: Applied Cryptography": "基础深入/课程推荐/计算机安全/密码学/BrownCSCI1515.md"
   - 书籍推荐: 
     - "推荐书目" : "书籍推荐.md"
     - Books:
