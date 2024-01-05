@@ -80,7 +80,6 @@ nav:
       - "UCB CS61A: Structure and Interpretation of Computer Programs": "CS基础/课程推荐/编程基础/UCBCS61A.md"
       - "其他推荐": "CS基础/课程推荐/编程基础/基础编程资源汇总.md"
     - 数学基础:
-      - "MIT18.01/18.02: Calculus": "CS基础/课程推荐/数学基础/MITCalculs.md"
       - "MIT18.06: Linear Algebra": "CS基础/课程推荐/数学基础/MITGSLA.md"
       - "UCB CS70: Discrete Mathematics and Probability Theory":  "CS基础/课程推荐/数学基础/UCBDM.md"
     - 算法基础:
@@ -98,7 +97,8 @@ nav:
     - PL:
       - 函数式编程:
         - "CS3110: OCaml Programming Correct + Efficient + Beautiful": "基础深入/课程推荐/PL/函数式编程/CornellCS3110.md"
-      # - 编译原理:
+      - 编译原理:
+        - "Modern Compiler Implementation": "基础深入/课程推荐/PL/编译原理/MordernCompilerImpl.md"
       - 编译语言设计和程序分析:
         - "Brown CSCI1260 / UCB CS164 Compilers and Program Analysis:": "基础深入/课程推荐/PL/编译语言设计和程序分析/BrownCSCI1260.md"
     - 体系结构:
