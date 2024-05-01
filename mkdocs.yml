@@ -88,7 +88,7 @@ nav:
   - 基础深入:
     - 深入导览: "基础深入/导览.md"
     - 数学进阶:
-      - "UCB CS126: Probability and Random Processes": "基础深入/课程推荐/数学进阶/UCBCS126.md"
+      - "概率论专题": "基础深入/课程推荐/数学进阶/Probability.md"
       - "SCNU: A Concrete Introduction to Number Theory and Algebra": "基础深入/课程推荐/数学进阶/CINTA.md"
     - 计算理论:
       - "ITOC: Introduction To The Theory Of Computation": "基础深入/课程推荐/计算理论/ITOC.md"
