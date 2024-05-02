@@ -106,7 +106,9 @@ nav:
       - "Brown CSCI0300: Fundamentals of Computer Systems": "基础深入/课程推荐/体系结构/BrownCS0300.md"
     - Systems:
       - 操作系统:
+        - "操作系统专题": "基础深入/课程推荐/Systems/操作系统/OS.md"
         - "MIT 6.1810: Operating System Engineering": "基础深入/课程推荐/Systems/操作系统/MIT6.S1810.md"
+        - "UCB CS162: Operating Systems and System Programming": "基础深入/课程推荐/Systems/操作系统/UCBCS162.md"
       - 分布式系统:
         - "MIT 6.5840: Distributed Systems": "基础深入/课程推荐/Systems/分布式系统/MIT6.5840.md"
     - 人工智能:
