@@ -10,28 +10,28 @@
         <meta name="author" content="MingLLuo">
       
       
-        <link rel="canonical" href="https://cs-plan.com/%E5%9F%BA%E7%A1%80%E6%B7%B1%E5%85%A5/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/UCBCS61C/">
+        <link rel="canonical" href="https://cs-plan.com/%E5%9F%BA%E7%A1%80%E6%B7%B1%E5%85%A5/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/Systems/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/OS/">
       
       
-        <link rel="prev" href="../../PL/%E7%BC%96%E8%AF%91%E8%AF%AD%E8%A8%80%E8%AE%BE%E8%AE%A1%E5%92%8C%E7%A8%8B%E5%BA%8F%E5%88%86%E6%9E%90/BrownCSCI1260/">
+        <link rel="prev" href="../../../%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/BrownCS0300/">
       
       
-        <link rel="next" href="../BrownCS0300/">
+        <link rel="next" href="../MIT6.S1810/">
       
       
-      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <link rel="icon" href="../../../../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.20">
     
     
       
-        <title>UCB CS61C: Great Ideas in Computer Architecture (Machine Structures) - CS Plan</title>
+        <title>操作系统专题 - CS Plan</title>
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/main.66ac8b77.min.css">
+      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.66ac8b77.min.css">
       
         
-        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -52,7 +52,7 @@
     
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css">
     
-    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
   
@@ -88,7 +88,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#cs-61c-great-ideas-in-computer-architecture-machine-structures" class="md-skip">
+        <a href="#_1" class="md-skip">
           跳转至
         </a>
       
@@ -104,7 +104,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="页眉">
-    <a href="../../../.." title="CS Plan" class="md-header__button md-logo" aria-label="CS Plan" data-md-component="logo">
+    <a href="../../../../.." title="CS Plan" class="md-header__button md-logo" aria-label="CS Plan" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -124,7 +124,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              UCB CS61C: Great Ideas in Computer Architecture (Machine Structures)
+              操作系统专题
             
           </span>
         </div>
@@ -244,7 +244,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../../.." title="CS Plan" class="md-nav__button md-logo" aria-label="CS Plan" data-md-component="logo">
+    <a href="../../../../.." title="CS Plan" class="md-nav__button md-logo" aria-label="CS Plan" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -274,7 +274,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../.." class="md-nav__link">
+      <a href="../../../../.." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -334,7 +334,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../CS%E5%9F%BA%E7%A1%80/%E5%AF%BC%E8%A7%88/" class="md-nav__link">
+      <a href="../../../../../CS%E5%9F%BA%E7%A1%80/%E5%AF%BC%E8%A7%88/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -392,7 +392,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../CS%E5%9F%BA%E7%A1%80/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA/%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%80%9F%E6%88%90%E8%AF%BE/" class="md-nav__link">
+      <a href="../../../../../CS%E5%9F%BA%E7%A1%80/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA/%E8%AE%A1%E7%AE%97%E6%9C%BA%E9%80%9F%E6%88%90%E8%AF%BE/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -413,7 +413,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../CS%E5%9F%BA%E7%A1%80/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA/HarvardCS50/" class="md-nav__link">
+      <a href="../../../../../CS%E5%9F%BA%E7%A1%80/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA/HarvardCS50/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -479,7 +479,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../CS%E5%9F%BA%E7%A1%80/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/UCBCS61A/" class="md-nav__link">
+      <a href="../../../../../CS%E5%9F%BA%E7%A1%80/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/UCBCS61A/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -500,7 +500,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../CS%E5%9F%BA%E7%A1%80/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E5%9F%BA%E7%A1%80%E7%BC%96%E7%A8%8B%E8%B5%84%E6%BA%90%E6%B1%87%E6%80%BB/" class="md-nav__link">
+      <a href="../../../../../CS%E5%9F%BA%E7%A1%80/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80/%E5%9F%BA%E7%A1%80%E7%BC%96%E7%A8%8B%E8%B5%84%E6%BA%90%E6%B1%87%E6%80%BB/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -566,7 +566,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../CS%E5%9F%BA%E7%A1%80/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/MITGSLA/" class="md-nav__link">
+      <a href="../../../../../CS%E5%9F%BA%E7%A1%80/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/MITGSLA/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -587,7 +587,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../CS%E5%9F%BA%E7%A1%80/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/UCBDM/" class="md-nav__link">
+      <a href="../../../../../CS%E5%9F%BA%E7%A1%80/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/UCBDM/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -653,7 +653,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../CS%E5%9F%BA%E7%A1%80/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/UCBCS61B/" class="md-nav__link">
+      <a href="../../../../../CS%E5%9F%BA%E7%A1%80/%E8%AF%BE%E7%A8%8B%E6%8E%A8%E8%8D%90/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80/UCBCS61B/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -682,7 +682,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../CS%E5%9F%BA%E7%A1%80/%E5%B7%A5%E5%85%B7%E4%B8%8E%E7%AD%96%E7%95%A5/" class="md-nav__link">
+      <a href="../../../../../CS%E5%9F%BA%E7%A1%80/%E5%B7%A5%E5%85%B7%E4%B8%8E%E7%AD%96%E7%95%A5/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -752,7 +752,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../%E5%AF%BC%E8%A7%88/" class="md-nav__link">
+      <a href="../../../../%E5%AF%BC%E8%A7%88/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -810,7 +810,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E6%95%B0%E5%AD%A6%E8%BF%9B%E9%98%B6/Probability/" class="md-nav__link">
+      <a href="../../../%E6%95%B0%E5%AD%A6%E8%BF%9B%E9%98%B6/Probability/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -831,7 +831,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E6%95%B0%E5%AD%A6%E8%BF%9B%E9%98%B6/CINTA/" class="md-nav__link">
+      <a href="../../../%E6%95%B0%E5%AD%A6%E8%BF%9B%E9%98%B6/CINTA/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -897,7 +897,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/ITOC/" class="md-nav__link">
+      <a href="../../../%E8%AE%A1%E7%AE%97%E7%90%86%E8%AE%BA/ITOC/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -963,7 +963,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E7%AE%97%E6%B3%95%E8%BF%9B%E9%98%B6/UCBCS170/" class="md-nav__link">
+      <a href="../../../%E7%AE%97%E6%B3%95%E8%BF%9B%E9%98%B6/UCBCS170/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1066,7 +1066,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../PL/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/CornellCS3110/" class="md-nav__link">
+      <a href="../../../PL/%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B/CornellCS3110/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1132,7 +1132,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../PL/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/MordernCompilerImpl/" class="md-nav__link">
+      <a href="../../../PL/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/MordernCompilerImpl/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1198,7 +1198,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../PL/%E7%BC%96%E8%AF%91%E8%AF%AD%E8%A8%80%E8%AE%BE%E8%AE%A1%E5%92%8C%E7%A8%8B%E5%BA%8F%E5%88%86%E6%9E%90/BrownCSCI1260/" class="md-nav__link">
+      <a href="../../../PL/%E7%BC%96%E8%AF%91%E8%AF%AD%E8%A8%80%E8%AE%BE%E8%AE%A1%E5%92%8C%E7%A8%8B%E5%BA%8F%E5%88%86%E6%9E%90/BrownCSCI1260/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1232,8 +1232,6 @@
                 
   
   
-    
-  
   
   
     
@@ -1242,11 +1240,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
         
           
           <label class="md-nav__link" for="__nav_3_6" id="__nav_3_6_label" tabindex="0">
@@ -1260,7 +1258,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3_6">
             <span class="md-nav__icon md-icon"></span>
             体系结构
@@ -1271,30 +1269,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    UCB CS61C: Great Ideas in Computer Architecture (Machine Structures)
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/UCBCS61C/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1303,59 +1281,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="目录">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      介绍
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="介绍">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      课程内容简览
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      个人分享
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1368,7 +1293,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../BrownCS0300/" class="md-nav__link">
+      <a href="../../../%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/BrownCS0300/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1394,6 +1319,8 @@
                 
   
   
+    
+  
   
   
     
@@ -1402,11 +1329,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_7" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_7" checked>
         
           
           <label class="md-nav__link" for="__nav_3_7" id="__nav_3_7_label" tabindex="0">
@@ -1420,7 +1347,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_7_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_7_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_7">
             <span class="md-nav__icon md-icon"></span>
             Systems
@@ -1431,6 +1358,8 @@
                 
   
   
+    
+  
   
   
     
@@ -1439,11 +1368,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_7_1" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_7_1" checked>
         
           
           <label class="md-nav__link" for="__nav_3_7_1" id="__nav_3_7_1_label" tabindex="0">
@@ -1457,7 +1386,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_7_1_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_7_1_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3_7_1">
             <span class="md-nav__icon md-icon"></span>
             操作系统
@@ -1468,10 +1397,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../Systems/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/OS/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -1480,6 +1418,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -1492,7 +1431,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Systems/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/MIT6.S1810/" class="md-nav__link">
+      <a href="../MIT6.S1810/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1513,7 +1452,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Systems/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/UCBCS162/" class="md-nav__link">
+      <a href="../UCBCS162/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1579,7 +1518,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Systems/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/MIT6.5840/" class="md-nav__link">
+      <a href="../../%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/MIT6.5840/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1653,7 +1592,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/UCBCS188/" class="md-nav__link">
+      <a href="../../../%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/UCBCS188/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1674,7 +1613,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/UMEECS498/" class="md-nav__link">
+      <a href="../../../%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/UMEECS498/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1777,7 +1716,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AE%89%E5%85%A8/%E7%BB%BC%E5%90%88/UCBCS161/" class="md-nav__link">
+      <a href="../../../%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AE%89%E5%85%A8/%E7%BB%BC%E5%90%88/UCBCS161/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1843,7 +1782,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AE%89%E5%85%A8/%E5%AF%86%E7%A0%81%E5%AD%A6/BrownCSCI1510/" class="md-nav__link">
+      <a href="../../../%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AE%89%E5%85%A8/%E5%AF%86%E7%A0%81%E5%AD%A6/BrownCSCI1510/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1864,7 +1803,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AE%89%E5%85%A8/%E5%AF%86%E7%A0%81%E5%AD%A6/BrownCSCI1515/" class="md-nav__link">
+      <a href="../../../%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AE%89%E5%85%A8/%E5%AF%86%E7%A0%81%E5%AD%A6/BrownCSCI1515/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1948,7 +1887,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E4%B9%A6%E7%B1%8D%E6%8E%A8%E8%8D%90/" class="md-nav__link">
+      <a href="../../../../../%E4%B9%A6%E7%B1%8D%E6%8E%A8%E8%8D%90/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2006,7 +1945,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../books/OSTEP/" class="md-nav__link">
+      <a href="../../../../../books/OSTEP/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2042,7 +1981,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../%E8%B4%A1%E7%8C%AE%E6%96%B9%E5%BC%8F%E5%8F%8A%E8%A6%81%E6%B1%82/" class="md-nav__link">
+      <a href="../../../../../%E8%B4%A1%E7%8C%AE%E6%96%B9%E5%BC%8F%E5%8F%8A%E8%A6%81%E6%B1%82/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2062,7 +2001,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../end/" class="md-nav__link">
+      <a href="../../../../../end/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2095,47 +2034,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      目录
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      介绍
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="介绍">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      课程内容简览
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      个人分享
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -2153,36 +2051,24 @@
   
 
 
-<h1 id="cs-61c-great-ideas-in-computer-architecture-machine-structures">CS 61C: Great Ideas in Computer Architecture (Machine Structures)</h1>
+<h1 id="_1">操作系统专题</h1>
+<p>学习操作系统推荐什么路径，我觉得最合适的配方是 MIT6.S081 + OSTEP，有空可以看 jyy 的 OS 系列的授课材料（<a href="https://space.bilibili.com/202224425">B 站</a>），从绿导师的课中能获得很多骚操作，但当时直接上手 PA 有点描述不清的怪感，写了两个 mini lab 就溜了。记得从 23 年开始，南大很多老师都主动在 B 站分享了他们的授课视频，在此敬以致意。</p>
+<p>在看 CLRS 时还跟着<a href="https://space.bilibili.com/390606417">Par4g0N</a>的算法设计与分析视频学习，动态之前分享的航拍视频好像消失了？</p>
+<p>跑题了跑题了</p>
+<p>MIT6.S081 的代码量不大，难度主要体现在几个 hard 部分，以及选做的 topics，蛮多朋友在博客与 B 站分享他们实现的思路，在这无法一一列出。我认为仔细了解 xv6 的执行过程，分析源码更有意义，不要刷完就跑。记得 jyy 的 OS 课有带着<a href="https://www.bilibili.com/video/BV1DY4y1a7YD">学习 xv6</a>，还讲了如何配 VSCode 来 Debug，很有用，评论区也有人分享 solution，可以关注。</p>
+<p>相较于 xv6 的 lab 设计，Pintos 会“强迫”你研读源码，很多设计都需要你来会翻看代码，理解源码的实现。提供的注释都很直接，理解起来没什么障碍。</p>
+<p>愿意花时间和精力，建议直接冲 CS162，如果有 xv6 的底子，会轻松一些</p>
+<p>国内很出名的“银杏书”第二版可以买来当拓展看一看，个人读起来没有阅读国外这些书的顺畅，暂时总结不出原因，如果要读，建议看完 CSAPP，有一些 OS 基础再读</p>
+<p>额外可以拓展的有：</p>
 <ul>
-<li>开设学校：UC Berkeley</li>
-<li>涉及语言：C, RISC-V</li>
-<li>课程页面：<a href="https://cs61c.org/">CS61C</a></li>
-</ul>
-<hr />
-<h2 id="_1">介绍</h2>
-<p>作为CS61ABC系列中的最后一节，涵盖的课程内容较为困难，但又十分基础。在国内的课程体系中，可能会被称作《计算机组成原理》，其教学内容相似，但除开理论学习，还配有Lab及Project的实践训练，学习更加新颖且简单的RISC-V指令集；</p>
-<h3 id="_2">课程内容简览</h3>
-<ul>
-<li>C语言、基本数据表达、RISC-V汇编语言、CPU电路设计、流水线、缓存、虚拟内存、并行...</li>
-<li>所涵盖的内容及其丰富，是学习计算机体系结构的敲门砖</li>
-<li>Project1将会带你巩固C语言，实现一个小游戏(2022的snek其实比较简单，可以去挑战CSCI0300的snake)；Project2将会引导你搭建一个手写数字识别的神经网络，巩固汇编知识；Project3将会要求你实现一个基于RISC-V的二级流水线CPU；Project4将会使用OpenMP，带你优化矩阵运算(对Arm架构的同学不大友好...)</li>
-<li>2022FALL的HW没有公开，不过你可以在某些特殊的途径找到它(比如说<a href="https://qm.qq.com/q/lKkdhkqgzS">某个群里？</a>)</li>
-</ul>
-<h3 id="_3">个人分享</h3>
-<ul>
-<li>61C的学习较为平稳，涵盖的知识十分重要，很适合补充"计算机组成原理"的空白，很适合希望认认真真学习计算机体系的同学，在一个比较“陈旧”的环境听老师唠嗑，在某个基础问题上不断与同学揪细节，能学到什么？即使高分，又收获了什么，其他课程的学习同理，坚持学习这门课程需要极大的内推力，否则你会因为RISC-V汇编语言调试、搭建CPU的繁琐而劝退</li>
-<li>RISC-V指令集正在不断发展壮大，精简的指令集也很适合初步学习(你可能会说x86也挺适合的，因人而异)</li>
-<li>很多人会把CSAPP与CS61C拿出来一起比较，学习哪门更合适，其实应该比较CMU15-213与CS61C，我给出一些比较与建议：<ul>
-<li>15-213开放的课程视频较旧，61C每年都有人往b站上搬运</li>
-<li>15-213的lab有极多人分享自己实现，61C则较少(lab/Project每次都会变化)，二者的测试都很齐全，61C的指引更加友好，“没有参考”也对自学的同学提出了较大的挑战，不过个人更喜欢这样的学习，在通过测试时的激动与兴奋真的难以描述！</li>
-<li>...</li>
-<li>虽然CSAPP这本书部分内容有在15-213、61C中出现，但不代表不用阅读CSAPP这本书，相反，我认为阅读完CSAPP很有必要</li>
-<li>综上，其实我更加推荐这样的学习61C后，阅读完CSAPP(也可以一起看)，如果有充足的时间，可以学习<a href="../BrownCS0300/">CSCI0300</a></li>
+<li>清华的 rCore</li>
+<li>以及国外指导操作系统实现的文档<ul>
+<li><a href="https://os.phil-opp.com/">Writing an OS in Rust Philipp Oppermann's blog</a></li>
 </ul>
 </li>
-<li>在学习完61C后，还可以趁热学习<a href="https://inst.eecs.berkeley.edu/~eecs151/">EECS151</a></li>
+<li>...</li>
 </ul>
+<p>还有一本书<a href="https://book.douban.com/subject/36470622/">《计算机系统开创性经典文献选读与解析》</a>，还专门蹲便宜的时候下单，虽然还是小贵。我个人完全读不下去这类论文解析，选择的论文很经典，但扯来扯去，完全看不懂想要干啥，最近不知道有没有更新，至少当时的感觉就是完全读不下去</p>
 
 
 
@@ -2286,12 +2172,12 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.top", "navigation.sections", "search.highlight", "search.share", "search.suggest", "content.code.annotate"], "search": "../../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+    <script id="__config" type="application/json">{"base": "../../../../..", "features": ["navigation.instant", "navigation.tracking", "navigation.top", "navigation.sections", "search.highlight", "search.share", "search.suggest", "content.code.annotate"], "search": "../../../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
     
     
-      <script src="../../../../assets/javascripts/bundle.dd8806f2.min.js"></script>
+      <script src="../../../../../assets/javascripts/bundle.dd8806f2.min.js"></script>
       
-        <script src="../../../../javascripts/katex.js"></script>
+        <script src="../../../../../javascripts/katex.js"></script>
       
         <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js"></script>
       
