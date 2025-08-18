@@ -106,23 +106,26 @@ nav:
       - "Brown CSCI0300: Fundamentals of Computer Systems": "基础深入/课程推荐/体系结构/BrownCS0300.md"
     - Systems:
       - 操作系统:
-        - "操作系统专题": "基础深入/课程推荐/Systems/操作系统/OS.md"
-        - "MIT 6.1810: Operating System Engineering": "基础深入/课程推荐/Systems/操作系统/MIT6.S1810.md"
-        - "UCB CS162: Operating Systems and System Programming": "基础深入/课程推荐/Systems/操作系统/UCBCS162.md"
+        - "操作系统专题": "基础深入/课程推荐/Systems/OS/OS.md"
+        - "MIT 6.1810: Operating System Engineering": "基础深入/课程推荐/Systems/OS/MIT6.S1810.md"
+        - "UCB CS162: Operating Systems and System Programming": "基础深入/课程推荐/Systems/OS/UCBCS162.md"
       - 分布式系统:
         - "MIT 6.5840: Distributed Systems": "基础深入/课程推荐/Systems/分布式系统/MIT6.5840.md"
     - 人工智能:
+      - "DL专题": "基础深入/课程推荐/深度学习/DL.md"
       - "UCB CS188: Introduction to Artificial Intelligence": "基础深入/课程推荐/人工智能/UCBCS188.md"
       - "UMich EECS 498-007 / 598-005: Deep Learning for Computer Vision": "基础深入/课程推荐/深度学习/UMEECS498.md"
+    - 计算机网络:
+      - "计网专题": "基础深入/课程推荐/计算机网络/Network.md"
+      - "UCB CS168": "基础深入/课程推荐/计算机网络/UCBCS168.md"
     - 计算机安全:
-      - 综合:
-        - "UCB CS161: Computer Security": "基础深入/课程推荐/计算机安全/综合/UCBCS161.md"
-      - 密码学:
-        - "Brown CSCI1510: Introduction to Cryptography and Computer Security": "基础深入/课程推荐/计算机安全/密码学/BrownCSCI1510.md"
-        - "Brown CSCI1515: Applied Cryptography": "基础深入/课程推荐/计算机安全/密码学/BrownCSCI1515.md"
+      - "资源参考": "基础深入/课程推荐/计算机安全/Security.md"
+      - "UCB CS161: Computer Security": "基础深入/课程推荐/计算机安全/综合/UCBCS161.md"
   - 书籍推荐: 
     - "推荐书目" : "书籍推荐.md"
     - Books:
       - "Operating Systems: Three Easy Pieces" : "books/OSTEP.md"
-  - 贡献要求: "贡献方式及要求.md"
   - 后记: "end.md"
+  - 贡献要求: "贡献方式及要求.md"
+  - TODO: "todo.md"
+  - 更新记录: "version.md"
